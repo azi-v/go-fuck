@@ -11,8 +11,7 @@ import (
 	"strings"
 )
 
-type ReqHttp struct {
-}
+type ReqHttp struct {}
 
 // GetWithURL http get method request
 func (s *ReqHttp) GetWithURL(requestUrl string, paramsMap map[string]string) (res []byte, err error) {
